@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">
+
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body style="background-color:#eef2a7;">
+
+    <h1>Això és una web</h1>
+    <h2>Això és una web</h2>
+    <h3>Això és una web</h3>
+    <h4>Això és una web</h4>
+    <h5>Això és una web</h5>
+    <h6>Això és una web</h6>
+
+    <hr />
+
+    <p>Això és una web</p>
+
+    <p style="color:red;">Això és una web</p>
+
+    <p style="font-family:Arial;">Això és una web</p>
+
+    <p style="font-size:25px;">Això és una web</p>
+
+    <p style="text-align:center;">Això és una web</p>
+
+    <br />
+
+    <b>Això és una web</b><br />
+
+    <big>Això és una web</big><br />
+
+    <em>Això és una web</em><br />
+
+    <i>Això és una web</i><br />
+
+    <small>Això és una web</small><br />
+
+    <strong>Això és una web</strong><br />
+
+    <p>Això és una <sub>web</sub></p>
+
+    <p>Això és una <sup>web</sup></p>
+
+    <ins>Això és una web</ins><br />
+
+    <del>Això és una web</del><br />
+
+    <code>Això és una web</code><br />
+
+    <kbd>Això és una web</kbd><br />
+
+    <samp>Això és una web</samp><br />
+
+    <tt>Això és una web</tt><br />
+
+    <var>Això és una web</var><br />
+
+    <pre>Això és una web</pre>
+
+    <abbr title="Això és una web">Això és una web</abbr><br />
+
+    <acronym title="Això és una web">Això és una web</acronym><br />
+
+    <address>Això és una web</address>
+
+    <bdo dir="rtl">Això és una web</bdo><br />
+
+    <blockquote>
+        Això és una web
+    </blockquote>
+
+    <q>Això és una web</q><br />
+
+    <cite>Això és una web</cite><br />
+
+    <dfn>Això és una web</dfn><br />
+
+    <center>Això és una web</center>
+
+    <font color="blue">Això és una web</font><br />
+
+    <s>Això és una web</s><br />
+
+    <strike>Això és una web</strike><br />
+
+    <u>Això és una web</u><br />
+
+    <hr />
+
+
+</body>
+</html>
