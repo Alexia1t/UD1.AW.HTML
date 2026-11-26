@@ -1,117 +1,53 @@
-<!DOCTYPEHTML>
-<html>
-<body>
+<!DOCTYPE html>
+
+<html> <head> <meta charset="UTF-8"> <title>Taula B. Resultat</title> </head> <body>
 
 <center>Taula B. Resultat</center>
 
 <table border="1" width="100%" height="290" cellspacing="1">
 
-<tr>
-<td bgcolor="blue" rowspan="3" width="33%" align="center" valign="top">
-<b>Formulari</b>
-<br><br>
-Nom: <input type="text" size="10">
-<br>
-P: <input type="password" size="10">
-<br><br>
-SOR: <input type="radio">
-<br>
-Professor: <input type="checkbox">
-Estudiant <input type="checkbox"> Treball
-<br>
-Estat Civil: <input type="radio"> Sí
-<input type="radio"> No
-<br>
-Edat: <select><option>Entre 16 i 20</option></select>
-<br>
-<input type="submit" value="Enviar">
-<input type="reset" value="Borrar">
+<tr> <td bgcolor="blue" rowspan="3" width="33%" align="center" valign="top">
+
+<b>Formulari</b> <br><br>
+
+<form> Nom: <input type="text" size="10"> <br> P: <input type="password" size="10"> <br><br>
+
+SOR: <input type="radio" name="sor"> <br>
+
+Professor: <input type="checkbox"> Estudiant <input type="checkbox"> Treball <br>
+
+Estat Civil: <input type="radio" name="civil"> Sí <input type="radio" name="civil"> No <br>
+
+Edat: <select>
+
+<option>Entre 16 i 20</option> </select> <br>
+
+<input type="submit" value="Enviar"> <input type="reset" value="Borrar"> </form>
+
 </td>
 
-<td bgcolor="red" height="45">
-<b>Aquí provar tots els estils de lletres</b>
-<br><br>
-Negreta Itàlica marcada Destacada "Entre cometes"
-Lletra petita Remarcada logo = 1; m²
-</td>
-</tr>
+<td bgcolor="red" height="45"> <b>Aquí provar tots els estils de lletres</b> <br><br> Negreta Itàlica marcada Destacada "Entre cometes" Lletra petita Remarcada logo = 1; m² </td> </tr>
 
-<tr>
-<td bgcolor="gray" align="center" height="35">
-<b>Aquí provar tots els tipus d'enllaços</b>
-<br>
-<a href="#">Tornar al menu</a> |
-<a href="#">Tornar a la Taula A. Estructura</a> |
-<a href="#">Google</a> |
-<a href="#">Calendari</a>
-</td>
-</tr>
+<tr> <td bgcolor="gray" align="center" height="35"> <b>Aquí provar tots els tipus d'enllaços</b> <br> <a href="#">Tornar al menu</a> | <a href="#">Tornar a la Taula A. Estructura</a> | <a href="https://www.google.com">Google</a> | <a href="#">Calendari</a> </td> </tr>
 
-<tr>
-<td>
-<table border="0" width="100%" height="100%" cellspacing="1">
-<tr>
-<td bgcolor="#ff0055" width="50%" valign="top">
-<b>Exemple de llistes ordenades</b>
-<ol>
-<li>Aplicacions Web</li>
-<li>Sistemes operatius en xarxa</li>
-<li>Seguretat</li>
-<li>Bases de dades</li>
-</ol>
+<tr> <td> <table border="0" width="100%" height="100%" cellspacing="1">
+
+<tr> <td bgcolor="#ff0055" width="50%" valign="top"> <b>Exemple de llistes ordenades</b> <ol> <li>Aplicacions Web</li> <li>Sistemes operatius en xarxa</li> <li>Seguretat</li> <li>Bases de dades</li> </ol> </td>
+
+<td bgcolor="#00ee55" valign="middle"> <b>Exemple de llistes desordenades</b> <ul> <li>Aplicacions Web</li> <li>Sistemes operatius en xarxa</li> <li>Seguretat</li> <li>Bases de dades</li> </ul> </td> </tr>
+
+</table> </td> </tr>
+
+<tr> <td bgcolor="yellow" align="center" height="65"> <b>Inserirem un altre taula</b> <br><br> Taula<br>Prova
+
+<table border="1"> <tr> <td>A</td><td>B</td><td>C</td><td>D</td> </tr> <tr> <td>E</td><td></td><td>F</td><td></td> </tr> <tr> <td>H</td><td>I</td><td>G</td><td></td> </tr> </table>
+
 </td>
 
-<td bgcolor="#00ee55" valign="middle">
-<b>Exemple de llistes desordenades</b>
-<ul>
-<li>Aplicacions Web</li>
-<li>Sistemes operatius en xarxa</li>
-<li>Seguretat</li>
-<li>Bases de dades</li>
-</ul>
-</td>
-</tr>
-</table>
-</td>
-</tr>
+<td bgcolor="#5900ff" align="center"> <b>Imatge</b> <br><br> <img src="imatge.jpg" width="110" height="45" alt="Imatge"> </td> </tr>
 
-<tr>
-<td bgcolor="yellow" align="center" height="65">
-<b>Inserirem un altre taula</b>
-<br><br>
-Taula<br>Prova
-<br>
-<table border="1">
-<tr>
-<td>A</td><td>B</td><td>C</td><td>D</td>
-</tr>
-<tr>
-<td>E</td><td></td><td>F</td><td></td>
-</tr>
-<tr>
-<td>H</td><td>I</td><td>G</td><td></td>
-</tr>
-</table>
-</td>
-
-<td bgcolor="#5900ff" align="center">
-<b>Imatge</b>
-<br><br>
-<img src="imatge.jpg" width="110" height="45">
-</td>
-</tr>
-
-<tr>
-<td bgcolor="lightsteelblue" colspan="2" align="center">
-<b>Aquí hi anirà el codi font</b>
-<br><br>
-<small>function comprova() { if (document.f1.nom.value == "") alert("Això no potser!"); return 0; }</small>
-</td>
-</tr>
+<tr> <td bgcolor="lightsteelblue" colspan="2" align="center"> <b>Aquí hi anirà el codi font</b> <br><br> <small>function comprova() { if (document.f1.nom.value == "") alert("Això no potser!"); return 0; }</small> </td> </tr>
 
 </table>
 
-</body>
-</html>
-
-
+</body> </html>
